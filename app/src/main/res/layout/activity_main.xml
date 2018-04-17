@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/actCategory"
+        android:text="Category"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actCategory"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Romania" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/actSubCategory"
+        android:text="Sub Category"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp" />
+    <AutoCompleteTextView
+        android:id="@+id/actSubCategory"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_below="@+id/actCategory"
+        android:layout_marginTop="20dp"
+        android:text="Parents" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/actDescription"
+        android:text="Description"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp" />
+    <AutoCompleteTextView
+        android:id="@+id/actDescription"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_below="@+id/actSubCategory"
+        android:layout_marginTop="20dp"
+        android:text="Tv, Internet, Telephone" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/actPriceM"
+        android:text="Price (Monthly)"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp" />
+    <AutoCompleteTextView
+        android:id="@+id/actPriceM"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_below="@+id/actDescription"
+        android:layout_marginTop="20dp"
+        android:text="10" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/actPriceY"
+        android:text="Price (Yearly)"
+        android:layout_marginStart="10dp"
+        android:textSize="15sp" />
+    <AutoCompleteTextView
+        android:id="@+id/actPriceY"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_below="@+id/actPriceM"
+        android:layout_marginTop="20dp"
+        android:text="120" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/ButtonSave" />
+
+
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

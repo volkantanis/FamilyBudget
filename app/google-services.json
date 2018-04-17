@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "386714402444",
+    "firebase_url": "https://family-budget-list.firebaseio.com",
+    "project_id": "family-budget-list",
+    "storage_bucket": "family-budget-list.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386714402444:android:f94297db4ad7f065",
+        "android_client_info": {
+          "package_name": "pro.tanis.familybudget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386714402444-u6j1jhhcv28i2v2gb0nqkvdlsk6sqnhs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pro.tanis.familybudget",
+            "certificate_hash": "09769bcb87c4ad2a49db86a79d463eb5d98f431c"
+          }
+        },
+        {
+          "client_id": "386714402444-qo8t2qat867ql0gt5774semcrnp1132n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAapmsEmRVdl0cu_TzNqKFdd2_nEyaAhuI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386714402444-qo8t2qat867ql0gt5774semcrnp1132n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
